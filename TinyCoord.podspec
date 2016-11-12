@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TinyCoord'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TinyCoord.'
+  s.summary          = 'Convert a location and zoom level into a very short string'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Convert a CLLocation object and zoom level into a 12 character string.  This is useful for sharing a map viewport across different screen sizes and platforms
                        DESC
 
   s.homepage         = 'https://github.com/<GITHUB_USERNAME>/TinyCoord'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Chris Chares' => 'chris@chares.io' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/TinyCoord.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/chrischares/TinyCoord.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TinyCoord/Classes/**/*'
-  
+  s.source_files = 'xcode/TinyCoord/*.swift'
+  s.frameworks = 'CoreLocation'
+
   # s.resource_bundles = {
   #   'TinyCoord' => ['TinyCoord/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

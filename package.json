@@ -4,19 +4,19 @@
   "description": "[![CI Status](http://img.shields.io/travis/Chris Chares/TinyCoord.svg?style=flat)](https://travis-ci.org/Chris Chares/TinyCoord) [![Version](https://img.shields.io/cocoapods/v/TinyCoord.svg?style=flat)](http://cocoapods.org/pods/TinyCoord) [![License](https://img.shields.io/cocoapods/l/TinyCoord.svg?style=flat)](http://cocoapods.org/pods/TinyCoord) [![Platform](https://img.shields.io/cocoapods/p/TinyCoord.svg?style=flat)](http://cocoapods.org/pods/TinyCoord)",
   "main": "index.js",
   "scripts": {
-    "build": "browserify ./js/tinycoord.js --s tinycoord -o ./js/tinycoord-browser.js",
-    "test": "node ./node_modules/mocha/bin/mocha ./test/node.js && ./node_modules/karma/bin/karma start ./test/karma.config.js"
+    "build": "browserify ./src/js/tinycoord.js --s tinycoord -o ./src/js/tinycoord-browser.js",
+    "test": "node ./node_modules/mocha/bin/mocha ./test/js/node.js && ./node_modules/karma/bin/karma start ./test/js/karma.config.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "atob": "^2.0.3",
     "base64-arraybuffer": "^0.1.5",
-    "btoa": "^1.1.2",
-    "chai": "^3.5.0",
-    "mocha": "^3.1.2"
+    "btoa": "^1.1.2"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
     "karma": "^1.3.0",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^2.0.0",

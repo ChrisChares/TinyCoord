@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		837959AF1DD68F110039B278 /* TinyCoord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837959A51DD68F110039B278 /* TinyCoord.framework */; };
+		837959B41DD68F110039B278 /* TinyCoordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837959B31DD68F110039B278 /* TinyCoordTests.swift */; };
+		837959B61DD68F110039B278 /* TinyCoord.h in Headers */ = {isa = PBXBuildFile; fileRef = 837959A81DD68F110039B278 /* TinyCoord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		837959C01DD68F6C0039B278 /* TinyCoord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837959BF1DD68F6C0039B278 /* TinyCoord.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		837959B01DD68F110039B278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8379599C1DD68F110039B278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837959A41DD68F110039B278;
+			remoteInfo = TinyCoord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		837959A51DD68F110039B278 /* TinyCoord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TinyCoord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		837959A81DD68F110039B278 /* TinyCoord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TinyCoord.h; sourceTree = "<group>"; };
+		837959A91DD68F110039B278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837959AE1DD68F110039B278 /* TinyCoordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyCoordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		837959B31DD68F110039B278 /* TinyCoordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyCoordTests.swift; sourceTree = "<group>"; };
+		837959B51DD68F110039B278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837959BF1DD68F6C0039B278 /* TinyCoord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TinyCoord.swift; path = ../../src/swift/TinyCoord.swift; sourceTree = "<group>"; };
+		837959C11DD68FB00039B278 /* Sample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sample.playground; sourceTree = "<group>"; };
+		837959C21DD697A30039B278 /* TinyCoord.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TinyCoord.podspec; path = ../../TinyCoord.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		837959A11DD68F110039B278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837959AB1DD68F110039B278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837959AF1DD68F110039B278 /* TinyCoord.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8379599B1DD68F110039B278 = {
+			isa = PBXGroup;
+			children = (
+				837959A71DD68F110039B278 /* TinyCoord */,
+				837959B21DD68F110039B278 /* TinyCoordTests */,
+				837959A61DD68F110039B278 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		837959A61DD68F110039B278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				837959A51DD68F110039B278 /* TinyCoord.framework */,
+				837959AE1DD68F110039B278 /* TinyCoordTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		837959A71DD68F110039B278 /* TinyCoord */ = {
+			isa = PBXGroup;
+			children = (
+				837959C21DD697A30039B278 /* TinyCoord.podspec */,
+				837959A81DD68F110039B278 /* TinyCoord.h */,
+				837959BF1DD68F6C0039B278 /* TinyCoord.swift */,
+				837959A91DD68F110039B278 /* Info.plist */,
+				837959C11DD68FB00039B278 /* Sample.playground */,
+			);
+			path = TinyCoord;
+			sourceTree = "<group>";
+		};
+		837959B21DD68F110039B278 /* TinyCoordTests */ = {
+			isa = PBXGroup;
+			children = (
+				837959B31DD68F110039B278 /* TinyCoordTests.swift */,
+				837959B51DD68F110039B278 /* Info.plist */,
+			);
+			path = TinyCoordTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		837959A21DD68F110039B278 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837959B61DD68F110039B278 /* TinyCoord.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		837959A41DD68F110039B278 /* TinyCoord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837959B91DD68F110039B278 /* Build configuration list for PBXNativeTarget "TinyCoord" */;
+			buildPhases = (
+				837959A01DD68F110039B278 /* Sources */,
+				837959A11DD68F110039B278 /* Frameworks */,
+				837959A21DD68F110039B278 /* Headers */,
+				837959A31DD68F110039B278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyCoord;
+			productName = TinyCoord;
+			productReference = 837959A51DD68F110039B278 /* TinyCoord.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		837959AD1DD68F110039B278 /* TinyCoordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837959BC1DD68F110039B278 /* Build configuration list for PBXNativeTarget "TinyCoordTests" */;
+			buildPhases = (
+				837959AA1DD68F110039B278 /* Sources */,
+				837959AB1DD68F110039B278 /* Frameworks */,
+				837959AC1DD68F110039B278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				837959B11DD68F110039B278 /* PBXTargetDependency */,
+			);
+			name = TinyCoordTests;
+			productName = TinyCoordTests;
+			productReference = 837959AE1DD68F110039B278 /* TinyCoordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8379599C1DD68F110039B278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Denver Mapping Company";
+				TargetAttributes = {
+					837959A41DD68F110039B278 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 45VL6UQPFU;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					837959AD1DD68F110039B278 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 45VL6UQPFU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8379599F1DD68F110039B278 /* Build configuration list for PBXProject "TinyCoord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8379599B1DD68F110039B278;
+			productRefGroup = 837959A61DD68F110039B278 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				837959A41DD68F110039B278 /* TinyCoord */,
+				837959AD1DD68F110039B278 /* TinyCoordTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		837959A31DD68F110039B278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837959AC1DD68F110039B278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		837959A01DD68F110039B278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837959C01DD68F6C0039B278 /* TinyCoord.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837959AA1DD68F110039B278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837959B41DD68F110039B278 /* TinyCoordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		837959B11DD68F110039B278 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837959A41DD68F110039B278 /* TinyCoord */;
+			targetProxy = 837959B01DD68F110039B278 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		837959B71DD68F110039B278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		837959B81DD68F110039B278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		837959BA1DD68F110039B278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 45VL6UQPFU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TinyCoord/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.denvermapping.TinyCoord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		837959BB1DD68F110039B278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 45VL6UQPFU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TinyCoord/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.denvermapping.TinyCoord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		837959BD1DD68F110039B278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 45VL6UQPFU;
+				INFOPLIST_FILE = TinyCoordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.denvermapping.TinyCoordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		837959BE1DD68F110039B278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 45VL6UQPFU;
+				INFOPLIST_FILE = TinyCoordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.denvermapping.TinyCoordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8379599F1DD68F110039B278 /* Build configuration list for PBXProject "TinyCoord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837959B71DD68F110039B278 /* Debug */,
+				837959B81DD68F110039B278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		837959B91DD68F110039B278 /* Build configuration list for PBXNativeTarget "TinyCoord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837959BA1DD68F110039B278 /* Debug */,
+				837959BB1DD68F110039B278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		837959BC1DD68F110039B278 /* Build configuration list for PBXNativeTarget "TinyCoordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837959BD1DD68F110039B278 /* Debug */,
+				837959BE1DD68F110039B278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8379599C1DD68F110039B278 /* Project object */;
+}

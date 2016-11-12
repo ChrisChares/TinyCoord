@@ -1,4 +1,5 @@
-Example
-TinyCoord
+src/swift
+fastlane
+
 .travis.yml
 *.podspec
