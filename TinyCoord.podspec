@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TinyCoord'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Convert a location and zoom level into a very short string'
 
 # This description is used to generate tags and improve search results.
