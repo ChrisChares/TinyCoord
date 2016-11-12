@@ -11,6 +11,7 @@
 		837959B41DD68F110039B278 /* TinyCoordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837959B31DD68F110039B278 /* TinyCoordTests.swift */; };
 		837959B61DD68F110039B278 /* TinyCoord.h in Headers */ = {isa = PBXBuildFile; fileRef = 837959A81DD68F110039B278 /* TinyCoord.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		837959C01DD68F6C0039B278 /* TinyCoord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837959BF1DD68F6C0039B278 /* TinyCoord.swift */; };
+		837959C51DD69ABA0039B278 /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = 837959C41DD69ABA0039B278 /* fastlane */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		837959BF1DD68F6C0039B278 /* TinyCoord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TinyCoord.swift; path = ../../src/swift/TinyCoord.swift; sourceTree = "<group>"; };
 		837959C11DD68FB00039B278 /* Sample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sample.playground; sourceTree = "<group>"; };
 		837959C21DD697A30039B278 /* TinyCoord.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TinyCoord.podspec; path = ../../TinyCoord.podspec; sourceTree = "<group>"; };
+		837959C41DD69ABA0039B278 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fastlane; path = ../../fastlane; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		837959A71DD68F110039B278 /* TinyCoord */ = {
 			isa = PBXGroup;
 			children = (
+				837959C41DD69ABA0039B278 /* fastlane */,
 				837959C21DD697A30039B278 /* TinyCoord.podspec */,
 				837959A81DD68F110039B278 /* TinyCoord.h */,
 				837959BF1DD68F6C0039B278 /* TinyCoord.swift */,
@@ -189,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837959C51DD69ABA0039B278 /* fastlane in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
