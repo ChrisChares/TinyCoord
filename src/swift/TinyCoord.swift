@@ -7,7 +7,7 @@ private func readFloat(data : NSData, start : Int) -> Float {
     return d
 }
 
-private func readZoom(data: NSData) -> UInt8 {
+private func readUInt8(data: NSData) -> UInt8 {
     var z: UInt8 = 0
     data.getBytes(&z, range: NSRange(location: 0, length: 1))
     return z
@@ -41,7 +41,7 @@ public struct TinyCoord {
         guard string.characters.count == 12 else { throw TinyCoordError.invalidString }
         guard let data = Data(base64Encoded: string) else { throw TinyCoordError.invalidString }
         
-        let zoom = readZoom(data: data as NSData)
+        let zoom = readUInt8(data: data as NSData)
         let latitude = readFloat(data: data as NSData, start: 1)
         let longitude = readFloat(data: data as NSData, start: 5)
         let coord = CLLocationCoordinate2D(latitude: Double(latitude), longitude: Double(longitude))
