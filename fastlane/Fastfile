@@ -35,7 +35,9 @@ platform :ios do
     # Test
     test
     
-    increment_build_number
+    increment_build_number(
+        xcodeproj: "xcode/TinyCoord.xcodeproj"
+    )
 
     version_bump_podspec(
       path: "TinyCoord.podspec",
@@ -45,6 +47,7 @@ platform :ios do
     podspec_version = version_get_podspec(path: "TinyCoord.podspec")
 
     increment_version_number(
+      xcodeproj: "xcode/TinyCoord.xcodeproj",
       version_number: podspec_version
     )
     
@@ -73,6 +76,10 @@ platform :ios do
     pod_push
 
   end
+
+    error do |lane, exception|
+        reset_git_repo
+    end
 
 end
 

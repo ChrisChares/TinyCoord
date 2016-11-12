@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites name='TinyCoordTests.xctest' tests='1' failures='0'>
   <testsuite name='TinyCoordTests.TinyCoordTests' tests='1' failures='0'>
-    <testcase classname='TinyCoordTests.TinyCoordTests' name='testExample' time='0.014'/>
+    <testcase classname='TinyCoordTests.TinyCoordTests' name='testExample' time='0.012'/>
   </testsuite>
 </testsuites>
