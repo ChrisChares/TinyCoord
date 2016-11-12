@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='ToolbeltTests.xctest' tests='15' failures='0'>
+  <testsuite name='ToolbeltTests.DictionaryTests' tests='1' failures='0'>
+    <testcase classname='ToolbeltTests.DictionaryTests' name='testMerge' time='0.018'/>
+  </testsuite>
+  <testsuite name='ToolbeltTests.NSDateTests' tests='2' failures='0'>
+    <testcase classname='ToolbeltTests.NSDateTests' name='testIsAfter' time='0.004'/>
+    <testcase classname='ToolbeltTests.NSDateTests' name='testIsBefore' time='0.000'/>
+  </testsuite>
+  <testsuite name='ToolbeltTests.SequenceTypeTests' tests='4' failures='0'>
+    <testcase classname='ToolbeltTests.SequenceTypeTests' name='testFilterByType' time='0.004'/>
+    <testcase classname='ToolbeltTests.SequenceTypeTests' name='testFind' time='0.005'/>
+    <testcase classname='ToolbeltTests.SequenceTypeTests' name='testPluck' time='0.001'/>
+    <testcase classname='ToolbeltTests.SequenceTypeTests' name='testSortByProperty' time='0.002'/>
+  </testsuite>
+  <testsuite name='ToolbeltTests.StringTests' tests='6' failures='0'>
+    <testcase classname='ToolbeltTests.StringTests' name='testInsert' time='0.001'/>
+    <testcase classname='ToolbeltTests.StringTests' name='testIntValue' time='0.001'/>
+    <testcase classname='ToolbeltTests.StringTests' name='testLastCharacter' time='0.003'/>
+    <testcase classname='ToolbeltTests.StringTests' name='testLength' time='0.002'/>
+    <testcase classname='ToolbeltTests.StringTests' name='testRemove' time='0.002'/>
+    <testcase classname='ToolbeltTests.StringTests' name='testSubscript' time='0.000'/>
+  </testsuite>
+  <testsuite name='ToolbeltTests.TypesTests' tests='2' failures='0'>
+    <testcase classname='ToolbeltTests.TypesTests' name='testCast' time='0.002'/>
+    <testcase classname='ToolbeltTests.TypesTests' name='testUnpack' time='0.001'/>
+  </testsuite>
+</testsuites>

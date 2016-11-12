@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 Convert a CLLocation object and zoom level into a 12 character string.  This is useful for sharing a map viewport across different screen sizes and platforms
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/TinyCoord'
+  s.homepage         = 'https://github.com/chrischares/TinyCoord'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Chris Chares' => 'chris@chares.io' }
@@ -30,7 +30,7 @@ Convert a CLLocation object and zoom level into a 12 character string.  This is 
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'xcode/TinyCoord/*.swift'
+  s.source_files = 'src/swift/**/*.swift'
   s.frameworks = 'CoreLocation'
 
   # s.resource_bundles = {
