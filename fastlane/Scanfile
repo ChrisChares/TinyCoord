@@ -1,1 +1,3 @@
 scheme "TinyCoord"
+
+project "xcode/TinyCoord.xcodeproj"
