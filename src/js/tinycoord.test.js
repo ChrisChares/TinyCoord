@@ -1,7 +1,4 @@
-var chai = require('chai');
-var expect = chai.expect;
-var tc = require('../js/tinycoord.js');
-
+var tc = require('./tinycoord.js');
 
 describe('Conversion', function() {
   it('should encode', function() {
@@ -11,7 +8,7 @@ describe('Conversion', function() {
     	longitude: -39.44114303588867
     })
     var string = "E5+q0EK7wx3C";
-    expect(encoded).to.equal(string);
+    expect(encoded).toEqual(string);
   });
 
   it('should decode', function() {
@@ -19,7 +16,7 @@ describe('Conversion', function() {
     var string = "E5+q0EK7wx3C";
     var decoded = tc.decode(string);
 
-    expect(decoded.zoom).to.equal(19);
+    expect(decoded.zoom).toEqual(19);
   });
 
 });
