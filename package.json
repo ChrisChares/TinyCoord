@@ -1,6 +1,6 @@
 {
   "name": "tinycoord",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "[![CI Status](http://img.shields.io/travis/Chris Chares/TinyCoord.svg?style=flat)](https://travis-ci.org/Chris Chares/TinyCoord) [![Version](https://img.shields.io/cocoapods/v/TinyCoord.svg?style=flat)](http://cocoapods.org/pods/TinyCoord) [![License](https://img.shields.io/cocoapods/l/TinyCoord.svg?style=flat)](http://cocoapods.org/pods/TinyCoord) [![Platform](https://img.shields.io/cocoapods/p/TinyCoord.svg?style=flat)](http://cocoapods.org/pods/TinyCoord)",
   "main": "index.js",
   "scripts": {
